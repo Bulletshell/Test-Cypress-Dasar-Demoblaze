@@ -1,0 +1,16 @@
+{
+  "name": "tugas-cypress-dasar",
+  "version": "1.0.0",
+  "description": "Automation testing demoblaze using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome --spec cypress/e2e/demoblaze/1.cy.js",
+    "open": "cypress open"
+  },
+  "keywords": [],
+  "author": "MReihanS",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
